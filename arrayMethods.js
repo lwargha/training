@@ -19,7 +19,7 @@ element at the end
 4. If I need to add, for example, one student into the array of students that is read
 in a certain class, this method would do this properly. Folows the example
 */
-function pushArray() {
+function pushArray() {  
     console.log('Before adding Julie, the array should look like this: ' + students);
     console.log('Initial lenght of the array = ' + students.push());
     students.push('Julie');
